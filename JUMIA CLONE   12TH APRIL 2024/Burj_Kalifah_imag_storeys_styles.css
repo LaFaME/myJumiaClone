@@ -1,0 +1,140 @@
+    #burj_Khalifa {
+        /* margin-top: 50%; */
+        height: 6000px; width: 1200px;
+        margin: auto;
+        margin-top: 20px;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* padding-top: 20px; */
+        /* background: #FFFFFF; */
+        border-radius: 5px;
+        outline: 2px solid rgb(197, 252, 1);
+        /* z-index: 5; */
+    }
+
+    .Khalifa_storeys {
+        background: #FFFFFF;
+        height: 400px; width: 1200px;
+        /* z-index: 12; */
+        border-radius: 5px;
+        margin: 20px 0;
+        outline: #043bee 2px solid;
+    }
+
+    #storey_1 {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        height: 450px;
+    }
+
+    .storey_1_item_objext_card {
+        /* outline: 2px solid #fc0eb4; */
+        height: 215px; width: fit-content;
+        margin: auto;
+        outline: 2px dashed #6AC1D5;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: box-shadow 10.9s ease;
+
+            p {
+                margin: auto;
+            }
+
+            :hover {
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+            }
+    }
+
+    #item_object_card {
+        /* display: grid; */
+    }
+
+    .storey_1_item_objext_card_id {
+        height: 300px; width: 190px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: auto;
+        border-radius: 15px;
+        border-bottom: 5px solid #FF9900;   
+    }
+
+    
+    #storey_1_image_card_1 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Clearance_Sale.png);
+    }
+
+    #storey_1_image_card_2 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Special_Offers.png);
+    }
+
+    #storey_1_image_card_3 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Phones_&_Tablets.png);
+    }
+
+    #storey_1_image_card_4 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Fashion_Deals.png);
+    }
+
+    #storey_1_image_card_5 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Televisions.png);
+    }
+
+    #storey_1_image_card_6 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Refrigerator.jpg);
+    }
+
+    #storey_1_image_card_7 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Grocery_Deals.png);
+    }
+
+    #storey_1_image_card_8 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Computing_Deals.png);
+    }
+
+    #storey_1_image_card_9 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Mobile_Accessories.png);
+    }
+
+    #storey_1_image_card_10 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Generators.png);
+    }
+
+    #storey_1_image_card_11 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Home_Essentials.png);
+    }
+
+    #storey_1_image_card_12 {
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_1_images/Made_in_Nigeria.jpg);
+    }
+
+
+    #storey_2_section_content_wrapper {
+        outline: #FF9900 2px solid;
+        height: 380px; width: inherit;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    #red_flash_sales_rectangle {
+        background-color: #E61601;
+        height: 50px; width: inherit;
+    }
+
+    #flash_sale_tag_Label {
+        outline: 2px solid white;
+        height: inherit; width: 200px;
+
+
+    }
+
+    #flash_sale_image_label_holder {
+        height: 40px; width: 40px;
+        background-image: url(/jumia_images/Burj_Khalifah_storeys_images/storey_2_images/flash_Sale_Label.png);
+        background-size: cover;
+    }
+
+    
